@@ -1,0 +1,20 @@
+img{
+ width:250px;
+ height:auto;
+ margin: 0 auto
+}
+
+.detailContainer{
+    background-image: url('../../images/detail.jpg');
+    background-image: repeat;
+}
+.detailInfo, .activityInfo{
+    opacity: .9;
+    margin:10%;
+    background-color: #f4f2ed;
+    width: 35%;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}

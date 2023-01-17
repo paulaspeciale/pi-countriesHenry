@@ -1,0 +1,12 @@
+.infoContainer{
+margin: 10%;
+  color:black;
+    display: inline-block;
+    flex-direction: column;
+border: solid black 2px
+}
+
+.pageNotFound{
+background-color: white;
+border: solid black 2px
+}

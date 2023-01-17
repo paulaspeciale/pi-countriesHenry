@@ -1,0 +1,47 @@
+.formContainer{
+  display:flex;
+  flex-direction: column;
+  background-image: url('../../images/form.jpg');
+  background-repeat: repeat;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  background-color: white;
+  align-items: flex-start;  
+  margin: 10%;
+  padding: 5%;
+  border: solid black 5px;
+}
+select, input, label{
+  font-size: medium;
+  margin: 5px;
+  font-weight: bold;
+}
+.h1Form{
+  align-self: center;
+  text-decoration: underline wavy black
+}
+.buttonForm{
+padding: 7px;
+
+}
+.pError{
+  color: red;
+  font-weight: bold;
+  background-color: #ffba89;
+ 
+}
+.countriesSelected{
+  display: flex;
+  flex-direction: row;
+}
+button{
+  height: fit-content;
+  align-self: center;}
+.pForm{
+  font-size: medium;
+  font-weight: bold;
+
+}

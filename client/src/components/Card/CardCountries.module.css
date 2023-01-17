@@ -1,0 +1,37 @@
+
+.cardContainer{
+  background-color: #f4f2ed;
+  width: 110%;
+  margin: 4px;
+  overflow: hidden;
+  box-shadow: 0 2px 20px #f4f2ed;
+  
+  
+  
+ 
+}
+.card{
+  display: inline-block;
+  cursor: pointer;
+  
+  transform-style: preserve-3d;
+  transform: translateZ(-100px);
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1)
+}
+  img{
+  padding:15px ;
+  background-position: center;
+  max-width: 250px;
+  width:100%;
+  border-radius: 5px 5px 0 0;
+  }
+  .population{
+    display: none;
+  }
+  .cardContainer:hover
+    .population{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  

@@ -1,0 +1,84 @@
+.homeContainer{
+       background-image: url('../../images/home.jpg');
+       background-repeat: repeat;
+       opacity: .8;
+   }
+
+
+.homeCard{
+   
+    display:grid;   
+    grid-template-columns: repeat(auto-fit, minmax(12rem,16rem));
+    gap:4rem;
+    border-radius: 5px; 
+    justify-content: center;
+    align-content: center;   
+ 
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size:larger;
+    margin:5px;
+    padding: 5px;
+    
+}
+a:hover{
+    color: gray;     
+}
+
+
+.form{
+    display:flex;
+    flex-direction: row;
+    align-content: space-between;
+    margin: 5px;
+    padding: 10px;
+}
+button{
+   background-color: #f4f2ed;
+   justify-content: center;
+   border-color: #68aec8;
+ 
+   border-radius: 5px;
+   font-size: 1.2em;
+   transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+ 
+}
+button:hover {
+    transform: perspective(1px)  translateZ(0) ;
+    font-weight: bold;
+    background-color: #68aec8;
+  }
+
+.selectMenus{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.createActivity{
+    margin-left: -80%;
+    background-color:#f4f2ed ;
+    font-size: medium;
+    border: 3px solid;
+    border-color: #68aec8;
+    border-radius: 5px;
+}
+ /* color:#c15a92;*/
+ select, option{
+    font-size: medium;
+ }
+ .pHome{
+    font-size: medium;
+    background-color: #f4f2ed;
+    font-weight: bold;
+    font-stretch: semi-expanded;
+ }
+ .pHomeError{
+    font-size: large;
+    font-weight: bold;
+    color:red;
+    background-color: #f4f2ed;
+ }
